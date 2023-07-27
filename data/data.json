@@ -1,0 +1,27 @@
+{
+    "titulo": "Historias para contar",
+    "descripcion": "Un sitio dedicado a explorar la literatura, el cine y la historia comunes y no tanto, que se nos presentan en nuestra vida cotidina",
+    "autor": "Rúl Alejandro Roldán",
+    "paginas": [
+      {
+        "nombre": "Inicio",
+        "url": "index.html"
+      },
+      {
+        "nombre": "+Historias",
+        "url": "+historias.html"
+      },
+      {
+        "nombre": "Cine",
+        "url": "cine.html"
+      },
+      {
+        "nombre": "Literatura",
+        "url": "literatura.html"
+      },
+      {
+        "nombre": "Contacto",
+        "url": "contacto.html"
+      }
+    ]
+  }
