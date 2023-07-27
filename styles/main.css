@@ -1,26 +1,9 @@
-.mi-cartel {
-  background-color: hsl(0, 81%, 42%);
-  padding: 10px;
-  border: 1px solid #ccc;
-  font-size: 18px;
-  text-align: center;
-  color: #ccc;
-  opacity: 1;
-  transition: opacity 0.8s ease;
-}
-
 body {
   min-height: 100vh;
   padding-bottom: 1.25rem;
   text-align: justify;
   font-size: 16px;
   margin-bottom: 40px;
-}
-@media (max-width: 576px) {
-  body {
-    margin-bottom: 20px;
-    font-size: 14px;
-  }
 }
 
 .container {
@@ -29,11 +12,44 @@ body {
   margin-top: 40px;
   margin-bottom: 40px;
 }
+
+/* Estilos para pantallas de hasta 576px (móviles) */
 @media (max-width: 576px) {
+  body {
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+
   .container {
     margin-top: 20px;
     margin-bottom: 20px;
   }
 }
 
-/*# sourceMappingURL=main.css.map */
+/* Estilos para pantallas de hasta 768px (tablets) */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  .container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+/* Estilos para pantallas de hasta 992px (tablets y pantallas pequeñas) */
+@media (max-width: 992px) {
+  .container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+/* Estilos para pantallas de hasta 1200px (tablets y pantallas medianas) */
+@media (max-width: 1200px) {
+  .container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
