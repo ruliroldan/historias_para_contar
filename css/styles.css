@@ -1,3 +1,4 @@
+/* Estilos para el cartel */
 .mi-cartel {
   background-color: hsl(0, 81%, 42%);
   padding: 10px;
@@ -11,9 +12,11 @@
 @media (max-width: 576px) {
   .mi-cartel {
     font-size: 14px;
+    padding: 5px; /* Ajusta el padding en pantallas pequeñas */
   }
 }
 
+/* Estilos generales */
 body {
   min-height: 100vh;
   padding-bottom: 1.25rem;
@@ -28,6 +31,7 @@ body {
   }
 }
 
+/* Estilos del contenedor principal */
 .container {
   max-width: 960px;
   margin: 0 auto;
@@ -40,5 +44,3 @@ body {
     margin-bottom: 20px;
   }
 }
-
-/*# sourceMappingURL=styles.css.map */
