@@ -11,36 +11,23 @@
 }
 @media (max-width: 576px) {
   .mi-cartel {
-    font-size: 14px;
-    padding: 5px; /* Ajusta el padding en pantallas pequeñas */
+    font-size: 16px; /* Reducir el tamaño de fuente */
+    padding: 8px; /* Ajustar el padding */
   }
 }
 
 /* Estilos generales */
 body {
   min-height: 100vh;
-  padding-bottom: 1.25rem;
+  padding: 1rem; /* Ajustar el padding general */
   text-align: justify;
   font-size: 16px;
-  margin-bottom: 40px;
-}
-@media (max-width: 576px) {
-  body {
-    margin-bottom: 20px;
-    font-size: 14px;
-  }
+  margin: 0; /* Eliminar los márgenes */
 }
 
 /* Estilos del contenedor principal */
 .container {
-  max-width: 960px;
+  max-width: 100%; /* Cambiar a ancho máximo del 100% */
+  padding: 1rem; /* Ajustar el padding del contenedor */
   margin: 0 auto;
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-@media (max-width: 576px) {
-  .container {
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
 }
