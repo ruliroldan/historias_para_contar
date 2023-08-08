@@ -1,14 +1,13 @@
 body {
-  min-height: 100vh;
-  padding-bottom: 1.25rem;
-  text-align: justify;
-  font-size: $base-font-size;
-  margin-bottom: 40px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* sin el duplicado "sans-serif" */
-
-  // Estilos responsive
-  @media (max-width: 576px) {
-    margin-bottom: 20px;
-    font-size: 14px;
+    min-height: 100vh;
+    padding-bottom: 1.25rem;
+    text-align: justify;
+    font-size: $base-font-size;
+    margin-bottom: 40px;
+  
+    // Estilos responsive
+    @media (max-width: 576px) {
+      margin-bottom: 20px;
+      font-size: 14px;
+    }
   }
-}
