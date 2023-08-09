@@ -1,3 +1,27 @@
+/* Dentro del archivo "styles.css" */
+@media (max-width: 576px) {
+  .mi-cartel {
+    font-size: 14px;
+  }
+
+  body {
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+
+  .container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  /* Ajustar imágenes */
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* El resto de tu CSS */
 .mi-cartel {
   background-color: hsl(0, 81%, 42%);
   padding: 10px;
@@ -8,11 +32,6 @@
   opacity: 1;
   transition: opacity 0.8s ease;
 }
-@media (max-width: 576px) {
-  .mi-cartel {
-    font-size: 14px;
-  }
-}
 
 body {
   min-height: 100vh;
@@ -20,13 +39,7 @@ body {
   text-align: justify;
   font-size: 16px;
   margin-bottom: 40px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* sin el duplicado "sans-serif" */
-}
-@media (max-width: 576px) {
-  body {
-    margin-bottom: 20px;
-    font-size: 14px;
-  }
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .container {
@@ -34,14 +47,5 @@ body {
   margin: 0 auto;
   margin-top: 40px;
   margin-bottom: 40px;
-  /* Estilos responsive */
 }
-@media (max-width: 576px) {
-  .container {
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-}
-
-/*# sourceMappingURL=styles.css.map */
 
