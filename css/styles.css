@@ -1,16 +1,10 @@
-
+/* Dentro del archivo "styles.css" */
 body {
   min-height: 100vh;
   padding-bottom: 1.25rem;
   text-align: justify;
   font-size: 16px;
   margin-bottom: 40px;
-}
-
-img {
-  width: 75%;
-  height: auto;
-  object-fit: cover;
 }
 
 @media (max-width: 576px) {
