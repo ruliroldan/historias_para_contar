@@ -1,28 +1,29 @@
-/* Dentro del archivo "styles.css" */
+body {
+  min-height: 100vh;
+  padding-bottom: 1.25rem;
+  text-align: justify;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
 @media (max-width: 576px) {
-  .mi-cartel {
-    font-size: 14px;
-    margin-bottom: 20px; /* Aumenta el margen inferior entre .mi-cartel y el siguiente elemento */
-  }
-
   body {
-    margin-bottom: 30px; /* Aumenta el margen inferior del cuerpo */
-    font-size: 18px;
-  }
-
-  .container {
-    margin-top: 30px; /* Aumenta el margen superior del contenedor */
-    margin-bottom: 30px; /* Aumenta el margen inferior del contenedor */
-  }
-
-  img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 30px; /* Aumenta el margen inferior de las imágenes */
+    margin-bottom: 20px;
+    font-size: 14px;
   }
 }
 
-/* El resto de tu CSS */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+@media (max-width: 576px) {
+  .container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
 .mi-cartel {
   background-color: hsl(0, 81%, 42%);
   padding: 10px;
@@ -32,21 +33,11 @@
   color: #ccc;
   opacity: 1;
   transition: opacity 0.8s ease;
-  margin-bottom: 30px; /* Aumenta el margen inferior */
+}
+@media (max-width: 576px) {
+  .mi-cartel {
+    font-size: 14px;
+  }
 }
 
-body {
-  min-height: 100vh;
-  padding-bottom: 1.25rem;
-  text-align: justify;
-  font-size: 16px;
-  margin-bottom: 60px; /* Aumenta el margen inferior del cuerpo */
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.container {
-  max-width: 960px;
-  margin: 0 auto;
-  margin-top: 60px; /* Aumenta el margen superior del contenedor */
-  margin-bottom: 60px; /* Aumenta el margen inferior del contenedor */
-}
+/*# sourceMappingURL=styles.css.map */

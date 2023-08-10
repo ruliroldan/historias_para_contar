@@ -4,10 +4,11 @@ body {
     text-align: justify;
     font-size: $base-font-size;
     margin-bottom: 40px;
-  
+ 
     // Estilos responsive
     @media (max-width: 576px) {
       margin-bottom: 20px;
       font-size: 14px;
     }
   }
+
